@@ -2,4 +2,18 @@
 
 The full code will be published after the paper has been accepted by the journal.
 
+## Setup environment
+```bash
+conda create --name CGSCNet python==3.8
+conda activate CGSCNet
+pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+```
+
+## Install SMConv
+```bash
+pip install SMConv-1.0.0-cp38-cp38-linux_x86_64.whl # Make sure you have CUDA 12.1 Toolkit installed
+```
+
+## Download our pretrained weight
 checkpoint download link: https://drive.google.com/drive/folders/17-PHDG27s4fmZrGvqzISwE5oR-4Rbn5U?usp=drive_link
