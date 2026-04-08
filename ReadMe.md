@@ -2,6 +2,12 @@
 
 The full code will be published after the paper has been accepted by the journal.
 
+## Introduction
+
+![DAConv and SMConv](fig/fig.png)
+(a) DAConv requires stacking three direction-aware convolutions to form a spherical receptive field, and each convolution needs to learn 4 angles. 
+(b) Taking SMConv with kernel size 5 as an example, only one SMConv and learning 2 angles are needed to form a spherical receptive field.
+
 ## Setup environment
 ```bash
 conda create --name CGSCNet python==3.8
