@@ -3,10 +3,10 @@
 The full code will be published after the paper has been accepted by the journal.
 
 ## Introduction
-![Architecture of CGSC-Net]([fig/fig2.png](https://github.com/QibiaoWu/CGSC-Net/blob/main/fig/fig2.png))
+![Architecture of CGSC-Net]((https://github.com/QibiaoWu/CGSC-Net/blob/main/fig/fig2.png)
 The network consists of two parallel U-shaped networks for airway segmentation and orientation field learning,respectively. The cosine information learned by the CLM is used to guide the deformation of SMConv in the ITFFM.
 
-![DAConv and SMConv]([fig/fig1.png](https://github.com/QibiaoWu/CGSC-Net/blob/main/fig/fig1.png))
+![DAConv and SMConv](https://github.com/QibiaoWu/CGSC-Net/blob/main/fig/fig1.png)
 (a) DAConv requires stacking three direction-aware convolutions to form a spherical receptive field, and each convolution needs to learn 4 angles. 
 (b) Taking SMConv with kernel size 5 as an example, only one SMConv and learning 2 angles are needed to form a spherical receptive field.
 
